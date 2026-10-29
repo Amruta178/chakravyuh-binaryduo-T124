@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InnovateX - Smart Solutions</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b1020;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 20px;
+      background: #151d35;
+    }
+
+    h1 {
+      color: #67e8f9;
+      font-size: 40px;
+    }
+
+    .container {
+      padding: 50px 20px;
+    }
+
+    .card {
+      background: #182440;
+      padding: 25px;
+      margin: 20px auto;
+      max-width: 500px;
+      border-radius: 15px;
+    }
+
+    button {
+      background: #67e8f9;
+      color: #0b1020;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background: #a5f3fc;
+    }
+
+    footer {
+      padding: 20px;
+      color: #aab4cc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>INNOVATEX</h2>
+    <p>Ideas into Impact</p>
+  </header>
+
+  <main class="container">
+    <h1>Build a Better Future</h1>
+    <p>Discover smart solutions to real-world problems.</p>
+
+    <div class="card">
+      <h2>Have a Problem?</h2>
+      <p>Tell us what needs to change. Every great innovation starts with a problem.</p>
+      <button onclick="showMessage()">Explore Solution</button>
+      <p id="message"></p>
+    </div>
+  </main>
+
+  <footer>
+    Created for Innovation Challenge
+  </footer>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").textContent =
+        "Your journey to a smarter solution starts here!";
+    }
+  </script>
+</body>
+</html>
